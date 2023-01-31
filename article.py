@@ -18,8 +18,8 @@ t_transit=np.zeros(27)
 v=np.zeros(27)
 
 # specify carrington number range
-cr_min = 1627 #1625
-cr_max = 1628 #2253
+cr_min = 1625
+cr_max = 2265
 
 # create a loop to simulate solar wind conditions in each carrington number
 for i in range(cr_min, cr_max):
