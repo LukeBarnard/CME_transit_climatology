@@ -95,7 +95,6 @@ def run_experiment():
                 for k in range(0,27):
                     writer.writerow((num_c[k],lon_c[k],hit[k],hit_id[k],lon[k],r[k],t_arrive[k],t_transit[k],v[k])) 
                     
-        break
     return
     
 if __name__ == "__main__":

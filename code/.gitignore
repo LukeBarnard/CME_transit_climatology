@@ -1,0 +1,10 @@
+# Compiled python modules.
+*.pyc
+
+__pycache__
+
+.ipynb_checkpoints
+
+*.hdf5
+
+*.png
