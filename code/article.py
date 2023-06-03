@@ -71,7 +71,7 @@ def run_experiment():
             hit_id = hit_id*np.nan
             lon = lon*np.nan
             r = r*np.nan
-            t_arrive = t_arriva*np.nan
+            t_arrive = t_arrive*np.nan
             t_transit = t_transit*np.nan
             v = v*np.nan
             lon_c = 360*(27 - np.arange(0,27))/27
