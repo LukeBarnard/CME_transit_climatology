@@ -921,3 +921,20 @@ def plot_bpol(model, time, save=False, tag='', fighandle=np.nan, axhandle=np.nan
         fig.savefig(filepath)
 
     return fig, ax
+
+
+def get_body_styles():
+    """
+    Return a dictionary of observer/body names with associated colors and markerstyles
+    """
+
+    body_styles = {'MERCURY': {'color': 'black', 'marker': 'o'},
+                   'VENUS': {'color': 'tan', 'marker': 'o'},
+                   'EARTH': {'color': 'c', 'marker': 'o'},
+                   'MARS': {'color': 'darkred', 'marker': 'o'},
+                   'JUPITER': {'color': 'orange', 'marker': 'o'},
+                   'SATURN': {'color': 'm', 'marker': 'o'},
+                   'STA': {'color': 'r', 'marker': 's'},
+                   'STB': {'color': 'y', 'marker': '^'}}
+
+    return body_styles
