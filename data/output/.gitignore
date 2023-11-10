@@ -1,4 +1,5 @@
 # Ignore everything in this directory
 *
-# Except this file
+# Except this file and CME_transit_data.hdf5
 !.gitignore
+!CME_transit_data.hdf5
